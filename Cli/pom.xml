@@ -17,7 +17,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.mycompany.loginhealthinspec.Login</mainClass>
+                            <mainClass>com.mycompany.loginhealthinspec.Cli</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
