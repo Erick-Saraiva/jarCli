@@ -9,7 +9,6 @@ public class Cli {
 
     public static void main(String[] args) {
         Looca looca = new Looca();
-        Log log = new Log();
         Integer processList = looca.getGrupoDeProcessos().getProcessos().size();
 
         /*
