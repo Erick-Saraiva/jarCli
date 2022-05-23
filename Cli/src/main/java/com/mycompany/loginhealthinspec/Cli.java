@@ -3,8 +3,6 @@ package com.mycompany.loginhealthinspec;
 import com.github.britooo.looca.api.core.Looca;
 import java.io.File;
 import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class Cli {
@@ -13,7 +11,6 @@ public class Cli {
         Looca looca = new Looca();
         ConnectionMySql connectionMySql = new ConnectionMySql();
         JdbcTemplate con = new JdbcTemplate(connectionMySql.getDataSource());
-        Componentes componentes = new Componentes();
         
         
         try {
