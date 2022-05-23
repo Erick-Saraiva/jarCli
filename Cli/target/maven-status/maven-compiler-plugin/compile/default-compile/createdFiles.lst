@@ -1,1 +1,3 @@
-com\mycompany\loginhealthinspec\Cli.class
+com/mycompany/loginhealthinspec/Componentes.class
+com/mycompany/loginhealthinspec/ConnectionMySql.class
+com/mycompany/loginhealthinspec/Cli.class
