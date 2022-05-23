@@ -19,7 +19,7 @@ services:
 
     healthcli:
         image: ericksaraiva/healthcli
-        container_name: ericksaraiva/healthcli
+        container_name: healthcli
         networks:
           compose-bridge:
 
