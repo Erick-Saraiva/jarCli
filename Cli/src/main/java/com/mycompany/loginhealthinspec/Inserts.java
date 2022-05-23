@@ -41,6 +41,7 @@ public class Inserts {
                 null, "Disco", looca.getGrupoDeDiscos().getTamanhoTotal(),
                 gerador.nextInt(4) + 1);
 
+        
     }
 
     /*
