@@ -11,7 +11,7 @@ services:
            MYSQL_ROOT_PASSWORD: urubu100
         networks:
           compose-bridge:
-            ipv4_address: 0.0.0.0
+            ipv4_address: 172.19.199.1/24
         ports:
           - "3306:3306"
         expose: 
@@ -30,7 +30,7 @@ networks:
         ipam:
             driver: default
             config:
-                - subnet: 0.0.0.0/0
+                - subnet: 172.19.199.1/24
 
 
 
