@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-/home/aluno/Documents/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Componentes.java
-/home/aluno/Documents/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Cli.java
-/home/aluno/Documents/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/ConnectionMySql.java
-=======
-/home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Componentes.java
 /home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/ConnectionMySql.java
 /home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Cli.java
->>>>>>> 5c05219ad045de3d62777adb8cf8a573759be507
