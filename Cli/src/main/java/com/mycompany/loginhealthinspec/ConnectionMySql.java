@@ -10,7 +10,7 @@ public class ConnectionMySql {
         
 
         dataSource​.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource​.setUrl("jdbc:mysql://0.0.0.0/health");
+        dataSource​.setUrl("jdbc:mysql://172.19.199.1/health");
         dataSource​.setUsername("root");
         dataSource​.setPassword("urubu100");
     }
