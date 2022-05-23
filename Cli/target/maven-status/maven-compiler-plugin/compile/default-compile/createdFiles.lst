@@ -1,3 +1,8 @@
 com/mycompany/loginhealthinspec/Componentes.class
+<<<<<<< HEAD
 com/mycompany/loginhealthinspec/ConnectionMySql.class
 com/mycompany/loginhealthinspec/Cli.class
+=======
+com/mycompany/loginhealthinspec/Cli.class
+com/mycompany/loginhealthinspec/ConnectionMySql.class
+>>>>>>> 5c05219ad045de3d62777adb8cf8a573759be507
