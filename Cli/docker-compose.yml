@@ -19,7 +19,7 @@ services:
 
     healthcli:
         image: ericksaraiva/healthcli
-        container_name: boring_wiles
+        container_name: ericksaraiva/healthcli
         networks:
           compose-bridge:
 
