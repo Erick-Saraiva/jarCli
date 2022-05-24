@@ -10,7 +10,7 @@ public class ConnectionMySql {
         
 
         dataSource​.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource​.setUrl("jdbc:mysql://localhost:3306/health?useTimezone=true&serverTimezone=UTC");
+        dataSource​.setUrl("jdbc:mysql://0.0.0.0:3306/health?useTimezone=true&serverTimezone=UTC");
         dataSource​.setUsername("root");
         dataSource​.setPassword("urubu100");
     }
