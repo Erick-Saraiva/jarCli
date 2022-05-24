@@ -27,6 +27,7 @@ public class Cli {
                         espaco, ram, espaco, tamanho / 1073741824.0));
                 inserts.insertMaquinas();
                 inserts.insertComponentes();
+                inserts.insertRegistros();
 
             }
 
