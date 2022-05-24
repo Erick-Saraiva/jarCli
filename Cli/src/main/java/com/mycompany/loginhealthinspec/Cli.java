@@ -2,8 +2,9 @@ package com.mycompany.loginhealthinspec;
 
 import com.github.britooo.looca.api.core.Looca;
 import java.io.File;
-import java.net.InetAddress;
-import java.time.LocalDateTime;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.Random;
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -12,11 +13,8 @@ public class Cli {
     public static void main(String[] args) {
         Looca looca = new Looca();
         Inserts inserts = new Inserts();
-        Random gerador = new Random();
-        ConnectionMySql connectionMySql = new ConnectionMySql();
-        JdbcTemplate con = new JdbcTemplate(connectionMySql.getDataSource());
 
-        try {
+        try {          
             String espaco = "==========";
             Double ram = looca.getMemoria().getEmUso() / 1073741824.0;
             Boolean contador = true;
@@ -35,7 +33,7 @@ public class Cli {
                 inserts.insertMaquinas();
                 inserts.insertComponentes();
                 inserts.insertRegistros();
-                
+                Thread.sleep(3000);
             }
 
         } catch (Exception e) {
