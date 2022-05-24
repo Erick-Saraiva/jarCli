@@ -8,7 +8,7 @@ services:
         environment:
            MYSQL_DATABASE: health
            MYSQL_ROOT_USER: root
-           MYSQL_ROOT_PASSWORD: root
+           MYSQL_ROOT_PASSWORD: urubu100
         networks:
           compose-bridge:
             ipv4_address: 172.20.20.4
