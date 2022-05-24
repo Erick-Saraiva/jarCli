@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Inserts.java
 /home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/ConnectionMySql.java
 /home/ubuntu/jarCli/Cli/src/main/java/com/mycompany/loginhealthinspec/Cli.java
+=======
+C:\Users\sarai\Desktop\cli\jarCli\Cli\src\main\java\com\mycompany\loginhealthinspec\ConnectionMySql.java
+C:\Users\sarai\Desktop\cli\jarCli\Cli\src\main\java\com\mycompany\loginhealthinspec\Inserts.java
+C:\Users\sarai\Desktop\cli\jarCli\Cli\src\main\java\com\mycompany\loginhealthinspec\Cli.java
+>>>>>>> eb0a11efd85f783488f88633b4d6595e283b45b7
