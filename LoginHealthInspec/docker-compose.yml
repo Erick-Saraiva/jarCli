@@ -1,0 +1,33 @@
+version: '3.1'
+services:
+    bd:
+        image: mysql
+        container_name: mysql
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+           MYSQL_DATABASE: health
+           MYSQL_ROOT_USER: root
+           MYSQL_ROOT_PASSWORD: urubu100
+        networks:
+          compose-bridge:
+            ipv4_address: 172.20.20.4
+        ports:
+          - "3306:3306"
+        expose: 
+          - "3306"
+
+    healthcli:
+        image: ericksaraiva/healthcli
+        container_name: healthcli
+        networks:
+          compose-bridge:
+
+
+networks: 
+    compose-bridge: 
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.20.20.4/16
