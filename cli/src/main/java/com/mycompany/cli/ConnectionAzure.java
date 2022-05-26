@@ -10,7 +10,7 @@ public class ConnectionAzure {
         dataSourceAzure = new BasicDataSource();
 
         dataSource​Azure.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        dataSource​Azure.setUrl("jdbc:sqlserver://svr-health-inspec.database.windows.net:1433;i-04d57ade68fcc01e6"
+        dataSource​Azure.setUrl("jdbc:sqlserver://svr-health-inspec.database.windows.net:1433;"
             + "database=bd-health-inspec;"
             + "user=admin-health-inspec@svr-health-inspec;"
             + "password=2ads@grupo7;"
@@ -27,7 +27,7 @@ public class ConnectionAzure {
     
     
     String connectionUrl
-            = "jdbc:sqlserver://svr-health-inspec.database.windows.net:1433;i-04d57ade68fcc01e6"
+            = "jdbc:sqlserver://svr-health-inspec.database.windows.net:1433;"
             + "database=bd-health-inspec;"
             + "user=admin-health-inspec@svr-health-inspec;"
             + "password=2ads@grupo7;"
