@@ -19,6 +19,7 @@ import java.util.Scanner;
 import org.springframework.jdbc.core.JdbcTemplate;
 import oshi.jna.platform.mac.SystemB;
 
+
 /**
  *
  * @author nicol
