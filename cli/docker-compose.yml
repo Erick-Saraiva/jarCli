@@ -30,5 +30,5 @@ networks:
         ipam:
             driver: default
             config:
-                - subnet: svr-health-inspec.database.windows.net/1433
+                - subnet: 172.20.20.4/16
 
