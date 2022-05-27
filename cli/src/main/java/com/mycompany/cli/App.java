@@ -38,16 +38,17 @@ public class App {
             System.out.println("Conexão obtida com sucesso!");
             String selectEmailSql = "SELECT email, senha FROM hospital;";
             resultSetEmail = statement.executeQuery(selectEmailSql);
-
+            
+            
             
 
             
             while (resultSetEmail.next()) {
                     
             System.out.println("Digite seu email: ");
-            String email = scan.nextLine();
+            String email = scan.next();
             System.out.println("Digite sua senha: ");
-            String senha = scan.nextLine();
+            String senha = scan.next();
                 
             while (scan.hasNextLine()) {
 
