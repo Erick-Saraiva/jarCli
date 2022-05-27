@@ -46,9 +46,10 @@ public class App {
             while (resultSetEmail.next()) {
                     
             System.out.println("Digite seu email: ");
-            String email = scan.next();
+            String email = scan.nextLine();
+            
             System.out.println("Digite sua senha: ");
-            String senha = scan.next();
+            String senha = scan.nextLine();
                 
             while (scan.hasNextLine()) {
 
