@@ -13,7 +13,6 @@ import java.sql.Statement;
 import java.util.Scanner;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-
 /**
  *
  * @author nicol
@@ -46,16 +45,17 @@ public class App {
             String senha = scan.nextLine();
 
             while (resultSetEmail.next()) {
+                while (scan.hasNextLine()) {
 
-                if (email.equals(resultSetEmail.getString(1)) && senha.equals(resultSetEmail.getString(2))) {
-                    Log.guardarLog("Login efetuado com sucesso");
-                    System.out.println("Login efetuado com sucesso");
-                    inserts.msg();
-                    
+                    if (email.equals(resultSetEmail.getString(1)) && senha.equals(resultSetEmail.getString(2))) {
+                        Log.guardarLog("Login efetuado com sucesso");
+                        System.out.println("Login efetuado com sucesso");
+                        inserts.msg();
 
-                } else {
-                    Log.guardarLog("Tentativa de login falhou");
-                    System.out.println("Usuário ou senha incorretas, tente novamente!");
+                    } else {
+                        Log.guardarLog("Tentativa de login falhou");
+                        System.out.println("Usuário ou senha incorretas, tente novamente!");
+                    }
                 }
             }
 
