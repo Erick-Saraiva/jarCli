@@ -1,0 +1,21 @@
+
+ 2022-05-27 18:33:17 - Login efetuado com sucesso
+ 2022-05-27 18:37:13 - Login efetuado com sucesso
+ 2022-05-27 18:38:54 - Login efetuado com sucesso
+ 2022-05-27 18:41:24 - Login efetuado com sucesso
+ 2022-05-27 18:42:29 - Login efetuado com sucesso
+ 2022-05-27 18:58:40 - Login efetuado com sucesso
+ 2022-05-27 19:01:44 - Login efetuado com sucesso
+ 2022-05-27 19:03:37 - Login efetuado com sucesso
+ 2022-05-27 19:04:46 - Login efetuado com sucesso
+ 2022-05-27 19:05:38 - Login efetuado com sucesso
+ 2022-05-27 19:06:24 - Login efetuado com sucesso
+ 2022-05-27 19:07:22 - Login efetuado com sucesso
+ 2022-05-27 19:20:04 - Tentativa de login falhou
+ 2022-05-27 19:20:04 - Tentativa de login falhou
+ 2022-05-27 19:20:04 - Tentativa de login falhou
+ 2022-05-27 19:20:04 - Tentativa de login falhou
+ 2022-05-27 19:20:04 - Tentativa de login falhou
+ 2022-05-27 19:20:26 - Login efetuado com sucesso
+ 2022-05-27 19:24:51 - Login efetuado com sucesso
+ 2022-05-27 19:29:27 - Login efetuado com sucesso

@@ -5,19 +5,13 @@
 package com.mycompany.cli;
 
 import com.github.britooo.looca.api.core.Looca;
-import java.awt.Color;
-import java.io.File;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Scanner;
 import org.springframework.jdbc.core.JdbcTemplate;
-import oshi.jna.platform.mac.SystemB;
 
 
 /**
