@@ -31,33 +31,16 @@ public class App {
         Integer bits = looca.getSistema().getArquitetura();
 
         try {
-
+            Boolean contador = true;
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver").newInstance();
             java.sql.Connection connection = DriverManager.getConnection(azure.connectionUrl);
             Statement statement = connection.createStatement();
-            System.out.println("Conexão obtida com sucesso!");
-            String selectEmailSql = "SELECT email, senha FROM hospital;";
-            resultSetEmail = statement.executeQuery(selectEmailSql);
+            System.out.println("Conexão obtida com sucesso!");          
 
-            if (scan.hasNextLine()) {
-                System.out.println("Digite seu email: ");
-                String email = scan.nextLine();
-                System.out.println("Digite sua senha: ");
-                String senha = scan.nextLine();
-
-                while (resultSetEmail.next()) {
-
-                    if (email.equals(resultSetEmail.getString(1)) && senha.equals(resultSetEmail.getString(2))) {
-                        Log.guardarLog("Login efetuado com sucesso");
-                        System.out.println("Login efetuado com sucesso");
+                while (contador) {
                         inserts.msg();
-
-                    } else {
-                        Log.guardarLog("Tentativa de login falhou");
-                        System.out.println("Usuário ou senha incorretas, tente novamente!");
-                    }
                 }
-            }
+            
 
         } catch (Exception e) {
             e.printStackTrace();
