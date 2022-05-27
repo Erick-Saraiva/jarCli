@@ -44,8 +44,9 @@ public class App {
             System.out.println("Digite sua senha: ");
             String senha = scan.nextLine();
 
+            while (scan.hasNextLine()) {
             while (resultSetEmail.next()) {
-                while (scan.hasNextLine()) {
+                
 
                     if (email.equals(resultSetEmail.getString(1)) && senha.equals(resultSetEmail.getString(2))) {
                         Log.guardarLog("Login efetuado com sucesso");
