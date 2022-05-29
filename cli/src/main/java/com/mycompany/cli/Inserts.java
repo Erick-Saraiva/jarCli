@@ -62,7 +62,7 @@ public class Inserts {
                     con.update(insertCompMaq,
                             3,
                             maquinas.getIdMaquina(),
-                            looca.getProcessador().getFrequencia(),
+                            String.format("%.1f",looca.getProcessador().getFrequencia().doubleValue()),
                             "Ghz"
                     );
 
@@ -70,7 +70,7 @@ public class Inserts {
                     con.update(insertCompMaq,
                             1,
                             maquinas.getIdMaquina(),
-                            String.format("Memória de %.1f Gb",
+                            String.format("%.1f Gb",
                                     ram),
                             "Gb"
                     );
@@ -79,7 +79,7 @@ public class Inserts {
                     con.update(insertCompMaq,
                             2,
                             maquinas.getIdMaquina(),
-                            String.format("Disco de %.1f",
+                            String.format("%.1f Gb",
                                     disco),
                             "Gb"
                     );
