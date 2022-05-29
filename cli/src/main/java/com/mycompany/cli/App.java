@@ -25,8 +25,10 @@ public class App {
 
     public static void main(String[] args) throws UnknownHostException {
         ConnectionAzure azure = new ConnectionAzure();
+        Inserts inserts = new Inserts();
 
         try {
+            inserts.insertMaquinas();
             Boolean contador = true;
             Looca looca = new Looca();
             Double ram = looca.getMemoria().getEmUso() / 1073741824.0;
