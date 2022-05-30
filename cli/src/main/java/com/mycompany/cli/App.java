@@ -70,7 +70,7 @@ public class App {
                 SimpleDateFormat formatar = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 String dataFormatada = formatar.format(data);
 
-                System.out.println(String.format("%s %.2f%% %s %.2f GB USADOS %s %.2f USADOS",
+                System.out.println(String.format("%s %.2f%% %s %.2f GB USADOS %s %.2f LIVRE",
                         espaco, looca.getProcessador().getUso(),
                         espaco, ram, espaco, consumoDisco));
 
