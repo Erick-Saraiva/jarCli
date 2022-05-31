@@ -69,10 +69,11 @@ public class App {
                 Date data = new Date();
                 SimpleDateFormat formatar = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 String dataFormatada = formatar.format(data);
+                
 
-                System.out.println(String.format("%s %.2f%% USADOS %s %.2f GB USADOS %s %.2f  GB LIVRES",
+                System.out.println(String.format("%s %.2f%% USADOS %s %.2f GB USADOS %s",
                         espaco, looca.getProcessador().getUso(),
-                        espaco, ram, espaco, consumoDisco));
+                        espaco, ram, espaco));
 
                 // Registros:
                 String insertReg = "INSERT INTO registros (fkComponenteMaquina, fkComponente, fkMaquina, dataHora, totalUsado) VALUES (?, ?, ?, ?, ?)";
