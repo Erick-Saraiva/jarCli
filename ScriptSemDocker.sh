@@ -9,9 +9,6 @@ echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) Olá irei lhe ajudar com a
 echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) Irei atualizar os pacotes agora:"
 sudo apt update && sudo apt upgrade -y
 
-echo “Instalar o protocolo RDP e GUI LXDE”
-sudo apt-get install xrdp lxde-core lxde tigervnc-standalone-server -y
-
 echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) Procurando o Zip Instalador zip"
 which zip
 if [ $? = 0 ]
@@ -26,7 +23,7 @@ echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) irei reiniciar o terminal 
 source "/home/$usuario/.sdkman/bin/sdkman-init.sh"
 
 echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) Instalando o Java:"
-sudo sdk install java 11.0.11-open
+sudo sdk install java 11.0.14-open
 
 echo "$(tput setaf 10)[Bot assistant]:$(tput setaf 7) Versao do java instalada: "
 java -version
